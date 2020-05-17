@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG1: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xG1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG1"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG2: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xG2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG2"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA1: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGA1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA1"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA2: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGA2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA2"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGD1: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/xGD1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="top|left"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:text="xGD1"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGD2: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGD2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGD2"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="GDxGD1: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/GDxGD1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="GDxGD1"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="GDxGD2: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/GDxGD2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="GDxGD2"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGSh1: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGSh1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGSh1"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGSh2: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGSh2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGSh2"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGASh1: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGASh1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGASh1"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGASh2: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGASh2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGASh2"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG901: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xG901"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG901"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG902: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xG902"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xG902"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingRight="15dp">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA901: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGA901"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA901"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|left"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA902: "
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/xGA902"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="xGA902"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:layout_gravity="top|right"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="Использовать тестовые данные"
+            android:layout_marginTop="15dp"
+            android:textSize="17sp"
+            android:layout_marginLeft="170dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
